@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Cormorant&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: RGB(235, 237, 242)
+}
+
+.pageHeader {
+  background: #fff;
+  padding: 1em;
+  border-bottom: 1px solid RGB(217, 217, 217);
+}
+
+.pageHeader h1 {
+  text-align: center;
+  text-transform: lowercase;
+  font-family: Cormorant;
+  margin: 0;
+}
+
+.header-icon {
+  color: gray;
+  text-align: center;
+}
+
+.coffee-icon {
+  font-size: 3em;
+  margin: 0;
+}
+
+a {
+  color: black;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 2em 0 0;
+  row-gap: 20px;
+}
+
+.shop {
+  flex-basis: 16%;
+  background-color: #fff;
+  padding: 0;
+  margin: 0.5em;
+  border: 1px solid RGB(217, 217, 217);
+  border-radius: 5px;
+}
+
+.coffee-shop-name {
+  text-align: center;
+  text-transform: lowercase;
+  font-family: Cormorant;
+  font-style: normal;
+  margin: 0;
+  padding: 0.5em;
+}
+
+.coffee-shop-address, .coffee-shop-contact {
+  text-align: center;
+  text-transform: lowercase;
+  font-family: Open Sans;
+  font-style: normal;
+  font-size: .95em;
+}
+
+.coffee-page-footer {
+  margin: 2em 0 0 0;
+  padding: 2em;
+  background-color: #fff;
+  border-top: 1px solid RGB(217, 217, 217);
+}
+
+.footer-text {
+  font-size: .75em;
+  font-family: Open Sans;
+  color: gray;
+  text-align: center;
+}
+
+
